@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/editor.css">
+    <script src="https://kit.fontawesome.com/a9e9dfffc8.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editor</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-4">
+                <h2><i class="fa-solid fa-code fa-beat" style="color: #f1f4f8;"></i> ONLINE IDE &#x1F493;</h2>
+            </div>
+            <div class="col-8">
+                <a href="#"><i class="fa-brands fa-searchengin fa-fade"></i></a>
+                <a href="#" onclick="darkMode()"><i class="fa-solid fa-circle-half-stroke"></i></a>
+                <a href="../html/task_4.html" target="_blank">Register</a>
+                <a href="#">LogIn</a>
+                <a href="#">&#9776;</a>
+            </div>
+        </div>
+    </header>
+
+
+    <aside>
+        <ul id="lang">
+            <li><a href="" class="q">HTML & JS</a></li>
+            <li><a href="">python</a></li>
+            <li><a href="">c++</a></li>
+            <li><a href="">C</a></li>
+            <li><a href="">c#</a></li>
+            <li><a href="">php</a></li>
+            <li><a href="">java</a></li>
+            <li><a href="">R</a></li>
+            <li><a href="">perl</a></li>
+            <li><a href="">swift</a></li>
+            <li><a href="">SQL</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <section id="Home">
+            <h1>Online compiler..</h1>
+            <img src="images/black-background.png" alt="IDE">
+        </section>
+        <br><br><br>
+
+        <section id="IDE">
+            <div class="row">
+                <div class="input-field">
+                    <label><i class="fa-brands fa-html5"></i> HTML</label>
+                    <textarea name="" id="htmlField" cols="30" rows="10" onkeyup="run()"></textarea>
+                    <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
+                    <textarea name="" id="cssField" cols="30" rows="10" onkeyup="run()"></textarea>
+                    <label><i class="fa-brands fa-js"></i> JS</label>
+                    <textarea name="" id="jsField" cols="30" rows="10" onkeyup="run()"></textarea>
+                </div>
+
+
+                <div class="output-field">
+                    <label><i class="fa-solid fa-play"></i> Run</label>
+                    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                    <iframe id="outField"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/editor.js"></script>
+</body>
+
+</html>

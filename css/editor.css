@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+/* header */
+header {
+    background: linear-gradient(90deg, hsla(240, 100%, 50%, 1) 0%, hsla(239, 98%, 50%, 1) 0%, hsla(232, 93%, 49%, 1) 0%, hsla(235, 95%, 49%, 1) 3%, hsla(189, 68%, 45%, 1) 89%, hsla(177, 64%, 46%, 1) 100%);
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px;
+}
+
+header .col-8 {
+    width: 100%;
+    position: absolute;
+    margin: 10px;
+    width: auto;
+    right: 0;
+    top: 0;
+}
+
+header .col-8 a:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    height: 9vh;
+}
+
+header .col-4 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+/* aside */
+aside {
+    width: 18%;
+    float: left;
+    /* position: fixed; */
+    /* background-color: #fff; */
+    left: 0;
+    height: 85vh;
+    padding: 20px 10px 0;
+    background-color: rgb(170, 244, 244);
+}
+
+#lang li {
+    padding: 5px;
+}
+
+#lang a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#lang a:hover {
+    border-bottom: 2px solid blue;
+    color: red;
+}
+
+#lang .q {
+    border-bottom: 2px solid blue;
+    color: red;
+}
+
+/* Home section */
+#Home h1 {
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#Home img {
+    width: 60%;
+    height: 60vh;
+    margin-left: 90px;
+}
+
+/* IDE section */
+#IDE .input-field {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 40%;
+}
+
+#IDE .output-field {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#IDE .output-field iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #f1f4f8;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-color: black;
+}
+
+#IDE label {
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+#IDE textarea {
+    background-color: #f1f4f8;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#IDE i {
+    color: yellow;
+}
+
+/* dark mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
